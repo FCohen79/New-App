@@ -1,4 +1,4 @@
-import scipy.stats
+mport scipy.stats
 import streamlit as st
 import time
 
@@ -29,3 +29,4 @@ start_button = st.button('Run')
 
 if start_button:
     st.write(f'Running the experient of {number_of_trials} trials.')
+    mean = toss_coin(number_of_trials)
